@@ -1,0 +1,90 @@
+
+cout << "lock options_mutex"<<endl<<endl;
+pthread_mutex_lock(&options_mutex);
+pthread_mutex_unlock(&options_mutex);
+cout <<"unlock options_mutex"<<endl;
+
+cout << "lock local_bans_mutex"<<endl<<endl;
+pthread_mutex_lock(&local_bans_mutex);
+pthread_mutex_unlock(&local_bans_mutex);
+cout <<"unlock local_bans_mutex"<<endl;
+
+cout << "lock parseFor_mutex"<<endl<<endl;
+pthread_mutex_lock(&parseFor_mutex);
+pthread_mutex_unlock(&parseFor_mutex);
+cout <<"unlock parseFor_mutex"<<endl;
+
+cout << "lock user_mutex"<<endl<<endl;
+pthread_mutex_lock(&user_mutex);
+pthread_mutex_unlock(&user_mutex);
+cout <<"unlock user_mutex"<<endl;
+
+cout << "lock client_mutex"<<endl<<endl;
+pthread_mutex_lock(&client_mutex);
+pthread_mutex_unlock(&client_mutex);
+cout <<"unlock client_mutex"<<endl;
+
+cout << "lock mrbug_mutex"<<endl<<endl;
+pthread_mutex_lock(&mrbug_mutex);
+pthread_mutex_unlock(&mrbug_mutex);
+cout <<"unlock mrbug_mutex"<<endl;
+
+cout << "lock room_mutex"<<endl;
+pthread_mutex_lock(&room_mutex);
+pthread_mutex_unlock(&room_mutex);
+cout <<"unlock room_mutex"<<endl;
+
+cout << "lock db_mutex"<<endl<<endl;
+pthread_mutex_lock(&db_mutex);
+pthread_mutex_unlock(&db_mutex);
+cout <<"unlock db_mutex"<<endl;
+
+cout << "lock intToStr_mutex"<<endl<<endl;
+pthread_mutex_lock(&intToStr_mutex);
+pthread_mutex_unlock(&intToStr_mutex);
+cout <<"unlock intToStr_mutex"<<endl;
+
+cout << "lock strToInt_mutex"<<endl<<endl;
+pthread_mutex_lock(&strToInt_mutex);
+pthread_mutex_unlock(&strToInt_mutex);
+cout <<"unlock strToInt_mutex"<<endl;
+
+cout << "lock ipStrToInt_mutex"<<endl<<endl;
+pthread_mutex_lock(&ipStrToInt_mutex);
+pthread_mutex_unlock(&ipStrToInt_mutex);
+cout <<"unlock ipStrToInt_mutex"<<endl;
+
+cout << "lock stat1_mutex"<<endl<<endl;
+pthread_mutex_lock(&stat1_mutex);
+pthread_mutex_unlock(&stat1_mutex);
+cout <<"unlock stat1_mutex"<<endl;
+
+cout << "lock stat2_mutex"<<endl<<endl;
+pthread_mutex_lock(&stat2_mutex);
+pthread_mutex_unlock(&stat2_mutex);
+cout <<"unlock stat2_mutex"<<endl;
+
+cout << "lock time_mutex"<<endl<<endl;
+pthread_mutex_lock(&time_mutex);
+pthread_mutex_unlock(&time_mutex);
+cout <<"unlock time_mutex"<<endl;
+
+cout << "lock rand_mutex"<<endl<<endl;
+pthread_mutex_lock(&rand_mutex);
+pthread_mutex_unlock(&rand_mutex);
+cout <<"unlock rand_mutex"<<endl;
+
+cout << "lock geo_mrbug_mutex"<<endl<<endl;
+pthread_mutex_lock(&geo_mrbug_mutex);
+pthread_mutex_unlock(&geo_mrbug_mutex);
+cout <<"unlock geo_mrbug_mutex"<<endl;
+
+cout << "lock geo_client_mutex"<<endl<<endl;
+pthread_mutex_lock(&geo_client_mutex);
+pthread_mutex_unlock(&geo_client_mutex);
+cout <<"unlock geo_client_mutex"<<endl;
+
+cout << "lock mutex"<<endl<<endl;
+pthread_mutex_lock(&mutex);
+pthread_mutex_unlock(&mutex);
+cout <<"unlock mutex"<<endl;
